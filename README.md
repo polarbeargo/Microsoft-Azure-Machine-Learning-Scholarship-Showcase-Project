@@ -1,10 +1,11 @@
-# Microsoft-Azure-Machine-Learning-Scholarship-Showcase-Project
+# Microsoft Azure Machine Learning Scholarship Showcase Project 
 
 | Name | Slack Name |
 | ------------------------- | ------------------------- |
 | [Hsin Wen Chang](https://github.com/Polarbeargo) | Hsin-Wen Chang |
 
-
+### Forecasting Time Series Cryptocurrency Prices Using Machine Learning  
+Forecasting model of cryptocurrencies prices using machine learning approach with three year data 
 
 
 
