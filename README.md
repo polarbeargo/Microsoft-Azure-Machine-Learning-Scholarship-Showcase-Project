@@ -1,4 +1,8 @@
-# Microsoft Azure Machine Learning Scholarship Showcase Project 
+# Microsoft Azure Machine Learning Scholarship Showcase Project  
+
+[image1]: ./images/cleanDfVisual.png    
+[image2]: ./images/heatmap.png 
+[image3]: ./images/wightedPriceUncleanData.png 
 
 | Name | Slack Name |
 | ------------------------- | ------------------------- |
@@ -7,7 +11,15 @@
 ### Forecasting Time Series Cryptocurrency Prices Using Machine Learning  
 Forecasting model of cryptocurrencies prices using machine learning approach with three year data 
 
+#### Clean & Visualize data with Plotly
+Original Data Frame With Plotly       | Cleaned Data Frame With Plotly
+:-------------------------:|:-------------------------:
+![][image3]                | ![][image1] |  
 
+#### Data Correlation  
+![][image2]
+
+#### Scaling Data  
 
 ### References    
 * [Microsoft Azure Scholarship 
