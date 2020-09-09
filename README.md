@@ -3,6 +3,9 @@
 [image1]: ./images/cleanDfVisual.png    
 [image2]: ./images/heatmap.png 
 [image3]: ./images/wightedPriceUncleanData.png 
+[image4]: ./images/bidirectionalLSTMLoss.png
+[image5]: ./images/BidirectionalLSTMpredictVStrue.png
+[image6]: ./images/RMSE.png
 
 | Name | Slack Name |
 | ------------------------- | ------------------------- |
@@ -11,19 +14,19 @@
 ### Forecasting Time Series Cryptocurrency Prices Using Machine Learning  
 Forecasting model of cryptocurrencies prices using machine learning approach with three year data 
 
-#### Clean & Visualize data with Plotly
+### Clean & Visualize data with Plotly
 Original Data Frame With Plotly       | Cleaned Data Frame With Plotly
 :-------------------------:|:-------------------------:
 ![][image3]                | ![][image1] |  
 
-#### Data Correlation  
+### Data Correlation  
 ![][image2]
 
-#### Scaling Data  
+### Scaling Data  
 
 * Using MinMax normalize to fit feature Weighted Price  then transforming it so that the values fit within a range or scale between 0–1.[MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
 
-#### Model summary  
+### Model summary  
 ```
 Model: "sequential_18"
 _________________________________________________________________
@@ -39,6 +42,20 @@ Non-trainable params: 0
 _________________________________________________________________
 None  
 ```
+### Results  
+
+Loss|  
+:-------------------------:|
+![][image4]                |  
+
+Predict VS True|  
+:-------------------------:|
+![][image5]                |  
+
+RMSE|  
+:-------------------------:|
+![][image6]                |
+
 
 ### References    
 * [Microsoft Azure Scholarship 
