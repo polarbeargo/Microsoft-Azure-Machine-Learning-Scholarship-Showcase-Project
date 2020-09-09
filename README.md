@@ -21,9 +21,29 @@ Original Data Frame With Plotly       | Cleaned Data Frame With Plotly
 
 #### Scaling Data  
 
+* Using MinMax normalize to fit feature Weighted Price  then transforming it so that the values fit within a range or scale between 0–1.[MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
+
+#### Model summary  
+```
+Model: "sequential_18"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+bidirectional_15 (Bidirectio (None, 200)               81600     
+_________________________________________________________________
+dense_17 (Dense)             (None, 1)                 201       
+=================================================================
+Total params: 81,801
+Trainable params: 81,801
+Non-trainable params: 0
+_________________________________________________________________
+None  
+```
+
 ### References    
 * [Microsoft Azure Scholarship 
 Project Showcase Challenge Guideline](https://docs.google.com/document/d/1p0rplg0ZrIFfBabY1WyhyVOxjVjxMORC3koV00rscAI/edit#heading=h.dauwh6uej7if)  
 * [Forecasting Cryptocurrency Prices Time Series Using
 Machine Learning](http://ceur-ws.org/Vol-2422/paper26.pdf)  
 * [Developing and Deploying a Churn Prediction Model with Azure Machine Learning Services](https://devblogs.microsoft.com/cse/2019/01/10/develop-and-deploy-a-hybrid-multi-input-churn-prediction-model-with-azure-machine-learning-services/)
+* [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
