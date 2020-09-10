@@ -30,7 +30,7 @@ Original Data Frame With Plotly       | Cleaned Data Frame With Plotly
 
 * Using MinMax normalize to fit feature Weighted Price  then transforming it so that the values fit within a range or scale between 0–1.[MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
 
-### Model summary  
+### Model Architecture Summary  
 ```
 Model: "sequential_18"
 _________________________________________________________________
@@ -48,7 +48,7 @@ None
 ```
 ### Results  
 
-Loss (single feature)|  Loss (multi feature)|
+Training Loss (single feature)|  Training Loss (multi feature)|
 :-------------------------:|:-------------------------:|
 ![][image4]                |  ![][image7]              |
 
