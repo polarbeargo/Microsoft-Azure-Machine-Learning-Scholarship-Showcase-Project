@@ -8,7 +8,8 @@
 [image6]: ./images/RMSE.png
 [image7]: ./images/mutil_feature_train_loss.png
 [image8]: ./images/predictvsTrueMulti.png
-[image9]: ./images/predictvsactual.png
+[image9]: ./images/RMSEMulti.png
+
 
 | Name | Slack Name |
 | ------------------------- | ------------------------- |
