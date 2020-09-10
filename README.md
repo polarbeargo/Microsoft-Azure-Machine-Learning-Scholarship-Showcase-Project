@@ -6,6 +6,9 @@
 [image4]: ./images/bidirectionalLSTMLoss.png
 [image5]: ./images/BidirectionalLSTMpredictVStrue.png
 [image6]: ./images/RMSE.png
+[image7]: ./images/mutil_feature_train_loss.png
+[image8]: ./images/predictvsTrueMulti.png
+[image9]: ./images/predictvsactual.png
 
 | Name | Slack Name |
 | ------------------------- | ------------------------- |
@@ -44,17 +47,17 @@ None
 ```
 ### Results  
 
-Loss|  
-:-------------------------:|
-![][image4]                |  
+Loss (single feature)|  Loss (multi feature)|
+:-------------------------:|:-------------------------:|
+![][image4]                |  ![][image7]              |
 
-Predict VS True|  
-:-------------------------:|
-![][image5]                |  
+Predict VS True (single feature)| Predict VS True (multi feature)|   
+:-------------------------:|:-------------------------:|
+![][image5]                | ![][image8]                | 
 
-RMSE|  
-:-------------------------:|
-![][image6]                |
+RMSE (single feature)      |RMSE (multi feature)  
+:-------------------------:|:-------------------------:|
+![][image6]                |![][image9]
 
 
 ### References    
