@@ -9,6 +9,8 @@
 [image7]: ./images/mutil_feature_train_loss.png
 [image8]: ./images/predictvsTrueMulti.png
 [image9]: ./images/RMSEMulti.png
+[image10]: ./images/scatterplotActualVSPredict.png
+[image11]: ./images/MultiScatterPlot.png
 
 
 | Name | Slack Name |
@@ -59,6 +61,8 @@ Predict VS True (single feature)| Predict VS True (multi feature)|
 RMSE (single feature)      |RMSE (multi feature)  
 :-------------------------:|:-------------------------:|
 ![][image6]                |![][image9]
+
+![][image11]
 
 
 ### References    
