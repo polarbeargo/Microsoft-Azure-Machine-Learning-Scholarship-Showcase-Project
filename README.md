@@ -48,6 +48,10 @@ Non-trainable params: 0
 _________________________________________________________________
 None  
 ```
+### Training model  
+* Running Bidirectional LSTM with `300 epoches`, `batch_size=100` Modified `shuffle=True` which only shuffle training dataset produce better result in train vs validate loss plot.   
+Detail reference: [For Keras fit method, does “shuffle=True” shuffle BOTH the training and validation samples or just the training dataset?](https://forums.fast.ai/t/for-keras-fit-method-does-shuffle-true-shuffle-both-the-training-and-validation-samples-or-just-the-training-dataset/2992)
+
 ### Results  
 
 Training Loss (single feature)|  Training Loss (multi feature)|
@@ -72,3 +76,4 @@ Project Showcase Challenge Guideline](https://docs.google.com/document/d/1p0rplg
 Machine Learning](http://ceur-ws.org/Vol-2422/paper26.pdf)  
 * [Developing and Deploying a Churn Prediction Model with Azure Machine Learning Services](https://devblogs.microsoft.com/cse/2019/01/10/develop-and-deploy-a-hybrid-multi-input-churn-prediction-model-with-azure-machine-learning-services/)
 * [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
+* [Data Source](https://www.kaggle.com/team-ai/bitcoin-price-prediction/version/1)
