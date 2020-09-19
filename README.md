@@ -18,7 +18,12 @@
 | [Hsin Wen Chang](https://github.com/Polarbeargo) | Hsin-Wen Chang |
 
 ### Forecasting Time Series Cryptocurrency Prices Using Machine Learning  
-Forecasting model of cryptocurrencies prices using machine learning approach with three year data 
+* Forecasting model of cryptocurrencies prices using machine learning approach with three year data from [Kaggle Bitcoin Price Prediction (LightWeight CSV)
+Build Model from Market Data](https://www.kaggle.com/team-ai/bitcoin-price-prediction/version/1).
+* The notebook is a enhanced version from [Bitcoin Time Series Prediction with LSTM](https://www.kaggle.com/jphoon/bitcoin-time-series-prediction-with-lstm) with the following key features improvement:  
+  * Applied Bidirectional LSTM instead of LSTM producing much robust outcome in training loss and better result in RMSE.  
+  * Applied `shuffle = true` which only shuffle training dataset further optimiz the training result.  
+  * Modified `cols, names = list(), list()` to `cols, names = [], []` base on [[] and {} vs list() and dict(), which is better?](https://stackoverflow.com/questions/5790860/and-vs-list-and-dict-which-is-better) improve function efficiency.  
 
 ### Clean & Visualize data with Plotly
 Original Data Frame With Plotly       | Cleaned Data Frame With Plotly
@@ -60,15 +65,21 @@ Training Loss (single feature)|  Training Loss (multi feature)|
 
 Predict VS True (single feature)| Predict VS True (multi feature)|   
 :-------------------------:|:-------------------------:|
-![][image5]                | ![][image8]                | 
+![][image5]                | ![][image8]               | 
 
-RMSE (single feature)      |RMSE (multi feature)  
+RMSE (single feature)      |  RMSE (multi feature)     |
 :-------------------------:|:-------------------------:|
-![][image6]                |![][image9]
+109.153                    |98.608                     |
 
-![][image11]
+![][image11]  
 
-### Deploy the Model as a Web Service  
+- Bidirectional LSTM with single feature `Weighted Price` have RMSE of 109.153
+- Bidirectional LSTM with features `Volume(BTC)`, `Volume(Currency)` and `Weighted Price` have RMSE of 98.608
+- Bidirectional LSTM with multi features produce more accurate results
+
+### Future Work   
+- Deploy the Model as a Web Service. 
+- Applying Attention mechanism.  
 
 ### References    
 * [Microsoft Azure Scholarship 
