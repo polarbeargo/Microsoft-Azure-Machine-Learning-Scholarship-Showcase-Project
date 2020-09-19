@@ -76,7 +76,7 @@ RMSE (single feature)      |  RMSE (multi feature)     |
 - Bidirectional LSTM with single feature `Weighted Price` have RMSE of 109.153
 - Bidirectional LSTM with features `Volume(BTC)`, `Volume(Currency)` and `Weighted Price` have RMSE of 98.608
 - Bidirectional LSTM with multi features produce more accurate results
-
+- [View on Colab](https://colab.research.google.com/drive/1e-u0DtChHC_O_jgeDAip-LeTs_DhPJu_?usp=sharing)
 ### Future Work   
 - Deploy the Model as a Web Service. 
 - Applying Attention mechanism.  
