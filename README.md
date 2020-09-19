@@ -20,7 +20,7 @@
 ### Forecasting Time Series Cryptocurrency Prices Using Machine Learning  
 * Forecasting model of cryptocurrencies prices using machine learning approach with three year data from [Kaggle Bitcoin Price Prediction (LightWeight CSV)
 Build Model from Market Data](https://www.kaggle.com/team-ai/bitcoin-price-prediction/version/1).
-* The notebook is a enhanced version from [Bitcoin Time Series Prediction with LSTM](https://www.kaggle.com/jphoon/bitcoin-time-series-prediction-with-lstm) with the following key features improvement:  
+* This notebook is a enhanced version from the original author [JonathanPhoon](https://www.kaggle.com/jphoon)'s notebook [Bitcoin Time Series Prediction with LSTM](https://www.kaggle.com/jphoon/bitcoin-time-series-prediction-with-lstm) with the following key features improvement:  
   * Applied Bidirectional LSTM instead of LSTM producing much robust outcome in training loss and better result in RMSE.  
   * Applied `shuffle = true` which only shuffle training dataset further optimiz the training result.  
   * Modified `cols, names = list(), list()` to `cols, names = [], []` base on [[] and {} vs list() and dict(), which is better?](https://stackoverflow.com/questions/5790860/and-vs-list-and-dict-which-is-better) improve function efficiency.  
